@@ -15,13 +15,27 @@ header {
 }
 
 header nav {
-	padding: 30px 5% 0px 5%;
+	padding: 15px 5% 0px 5%;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
 	align-items: center;
+	position: relative;
 }
-header nav h1 {
+
+#titre {
+	display: contents;
+	width: 100%;
+	text-align: center;
+}
+
+#titre h1 {
+	font-size: 7vh;
+	color: #b902b9;
+	text-shadow: #fff;	
+}
+
+header nav h2 {
 	margin: 0;
 	text-transform: uppercase;
 	color: var(--violet);
