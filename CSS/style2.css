@@ -48,6 +48,18 @@ header nav .right p {
 	margin: 0 15px 0 0;
 	color: #ccc;
 }
+
+.right a {
+	margin: 0 15px 0 0;
+	color: #ccc;
+	text-decoration: none;
+}
+
+.right a:hover {
+	color: white;
+	cursor: pointer;
+}
+
 header nav .right p:hover {
 	color: white;
 	cursor: pointer;
